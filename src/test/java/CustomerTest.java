@@ -1,4 +1,4 @@
-import com.codebase.vehicles.components.Customer;
+import com.codebase.Customer;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,10 +12,10 @@ public class CustomerTest {
     }
     @Test
     public void ownedVehiclesStartsEmpty(){
-        assertEquals(1, customer.numberOfOwnedVehicles());
+        assertEquals(0, customer.getNumberOfOwnedVehicles());
     }
     @Test
     public void canGetBalance(){
-        assertEquals(50001,customer.getBalance());
+        assertEquals(50000,customer.getBalance(), 0.0);
     }
 }

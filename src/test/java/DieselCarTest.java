@@ -1,6 +1,6 @@
-import com.codebase.vehicles.components.DieselCar;
-import com.codebase.vehicles.components.DieselEngine;
-import com.codebase.vehicles.components.Tyres;
+import com.codebase.vehicles.DieselCar;
+import com.codebase.components.DieselEngine;
+import com.codebase.components.Tyres;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

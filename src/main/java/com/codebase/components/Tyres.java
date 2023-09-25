@@ -1,4 +1,4 @@
-package com.codebase.vehicles.components;
+package com.codebase.components;
 
 public class Tyres {
     private String brand;

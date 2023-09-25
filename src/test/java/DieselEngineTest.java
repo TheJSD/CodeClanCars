@@ -1,4 +1,4 @@
-import com.codebase.vehicles.components.DieselEngine;
+import com.codebase.components.DieselEngine;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -15,7 +15,7 @@ public class DieselEngineTest {
     }
 
     @Test
-    public void canGetCapacity(){
-        assertEquals(2.0, dieselEngine.getCapacity(), 0.00);
+    public void canGetFuelLevel(){
+        assertEquals(2.0, dieselEngine.getFuelLevel(), 0.00);
     }
 }

@@ -1,4 +1,4 @@
-import com.codebase.vehicles.components.Tyres;
+import com.codebase.components.Tyres;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
